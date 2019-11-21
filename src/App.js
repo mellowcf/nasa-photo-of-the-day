@@ -7,7 +7,7 @@ function App() {
   const [nasaImg, setNasaImg] = useState([]);
   useEffect(() => {
     
-    axios.get("https://api.nasa.gov/planetary/apod?api_key=6TkqVIfgilHERfcGBexFVe1ENz2zmp540eyAHZFk")
+    axios.get("https://api.nasa.gov/planetary/apod?api_key=pNAnN9KGFE5hr01iiW1wsiE21drFnhMhHfDe3erj")
     .then(res => {
       console.log(res.data);
       setNasaImg(res.data);
